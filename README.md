@@ -70,3 +70,8 @@ Run tests with `pytest`:
 ```bash
 uv run pytest
 ```
+
+## Credits
+
+- **Simplenote**: The application and service are developed by [Automattic](https://automattic.com/). More info at [simplenote.com](https://simplenote.com/).
+- **simplenote.py**: The Python library used to interact with the API was originally created by [Daniel Schauenberg](https://github.com/mrtazz). Source available at [github.com/simplenote-vim/simplenote.py](https://github.com/simplenote-vim/simplenote.py).

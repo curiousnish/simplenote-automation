@@ -53,3 +53,8 @@ Ensure you have `uv` installed. If not, follow the instructions at [astral.sh/uv
 - **Filename Sanitization:** Notes are saved using their first line as the filename, sanitized by the `sanitize_filename` function to ensure cross-OS compatibility.
 - **Testing:** Logic independent of the Simplenote API (like filename sanitization) is tested using `pytest` in `test_main.py`.
 - **Dependency Management:** All dependencies are tracked in `pyproject.toml` and locked in `uv.lock`.
+
+## Credits
+
+- **Simplenote (Application):** Developed by [Automattic](https://automattic.com/). Official website: [simplenote.com](https://simplenote.com/).
+- **simplenote (Python Library):** Originally created by [Daniel Schauenberg](https://github.com/mrtazz). Source: [github.com/simplenote-vim/simplenote.py](https://github.com/simplenote-vim/simplenote.py).

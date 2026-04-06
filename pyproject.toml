@@ -11,9 +11,6 @@ dependencies = [
     "typer>=0.24.1",
 ]
 
-[project.scripts]
-sn = "main:app"
-
 [dependency-groups]
 dev = [
     "pytest>=9.0.2",

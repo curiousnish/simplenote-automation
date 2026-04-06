@@ -23,36 +23,36 @@ A Python CLI tool to export your Simplenote notes as Markdown files with advance
 
 ## Usage
 
-You can run the tool using `uv run sn`:
+You can run the tool using `uv run python main.py`:
 
 ### Fetch all notes
 ```bash
-uv run sn fetch
+uv run python main.py fetch
 ```
 
 ### Fetch by tags
 ```bash
-uv run sn fetch -t work -t todo
+uv run python main.py fetch -t work -t todo
 ```
 
 ### Search by content
 ```bash
-uv run sn fetch -q "important"
+uv run python main.py fetch -q "important"
 ```
 
 ### Filter by date (last 7 days)
 ```bash
-uv run sn fetch --since 7
+uv run python main.py fetch --since 7
 ```
 
 ### Change output directory
 ```bash
-uv run sn fetch -o ./my_vault
+uv run python main.py fetch -o ./my_vault
 ```
 
 ### List your tags
 ```bash
-uv run sn list-tags
+uv run python main.py list-tags
 ```
 
 ## Options for `fetch`
